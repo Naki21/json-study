@@ -38,7 +38,17 @@ As it makes sense to you please write the following in JSON format:
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+{
+  "html" : {
+    "ul" : {
+      "li" : "Jason has many things...",
+      "li" : "A Cat named Mr.Kitty",
+      "li" : "Two roomates named Dave and Miller",
+      "li" : "A Love of the Red Sox, Patriots and Bruins",
+      "li" : "Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road"
+    },
+  }
+}
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,21 +56,35 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
-```
+{
+  "html" : {
+    "ul" : {
+      "li" : "Jason has many things...",
+      "li" : "A Cat named Mr.Kitty",
+      "li" : "Two roomates named Dave and Miller",
+      "li" : "A Love of the Red Sox, Patriots and Bruins",
+      "li" : "Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road"
+    },
+    "div" : {
+      "para" : "I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
+      other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
+      already wrote and include the information about Dave's fish."
+    }
+  }
+  }  ```
 
-## JSON Methods
+  ## JSON Methods
 
-Using the JSON your wrote above, can you write a method on the JSON?
+  Using the JSON your wrote above, can you write a method on the JSON?
 
-```json
-<!-- your answer here -->
-```
+  ```json
+Not sure how
+  ```
 
-## JSON Comments
+  ## JSON Comments
 
-Using the JSON your wrote above, can you write a comment in the JSON?
+  Using the JSON your wrote above, can you write a comment in the JSON?
 
-```json
-<!-- your answer here -->
-```
+  ```json
+Not sure what is meant here.
+  ```
